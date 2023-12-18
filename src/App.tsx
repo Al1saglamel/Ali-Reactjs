@@ -30,6 +30,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
+      // berkant
      path:"/",
      element: <Layout/>,
      children:[
