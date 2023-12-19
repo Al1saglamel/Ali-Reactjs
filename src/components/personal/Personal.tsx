@@ -1,5 +1,6 @@
 import { Legend, Line, LineChart, ResponsiveContainer, XAxis, YAxis, Tooltip } from "recharts"
 import "./personal.scss";
+import { Button } from "@mui/material";
 
 type Props = {
   id: number;
@@ -21,7 +22,8 @@ const Personal = (props: Props) => {
           <div className="topInfo">
             {props.img && <img src={props.img} alt="" />}
             <h1>{props.title}</h1>
-            <button>Update</button>
+            {/* <Button variant="outlined" style={{color:"white", borderColor:"#8884d8"}}>Update</Button> */}
+            <button>Update</button> 
           </div>
           <div className="details">
             {Object.entries(props.info).map((item) => (

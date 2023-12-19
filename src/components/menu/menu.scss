@@ -1,6 +1,6 @@
 @import "../../styles/variables.scss";
-.menu{
-
+@import "../../styles/responsive.scss";
+.menu{  
     .item{
         display: flex;
         flex-direction: column;
@@ -12,6 +12,10 @@
             font-weight: 200;
             color: $software-color; 
             text-transform: uppercase;
+
+            @include lg{
+                display: none;
+            }
         }
 
         .listItem{
@@ -23,6 +27,12 @@
 
            &:hover{
             background-color: $software-bg;
+           }
+
+           .listItemTitle{
+            @include lg{
+                display: none;
+            }
            }
         }   
     }

@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import "./responsive.scss";  
 *{
   margin: 0;
   padding: 0;
@@ -17,9 +18,13 @@ a {
   display: flex;
 }
 .menuC{
-  width: 15rem;
+  width: 13rem;
   padding: 0.3rem 1.2rem;
   border-right: 2px solid $software-bg;
+
+  @include lg{
+    width: max-content;
+  }
 }
 .contentC{
   padding: 0.3rem 1.2rem;

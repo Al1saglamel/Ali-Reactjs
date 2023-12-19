@@ -1,5 +1,11 @@
+@import "../../styles/responsive.scss";
 .personal{
     display: flex; 
+
+    @include xl{
+      flex-direction: column;
+      gap: 50px;
+    }
       .view {
         flex: 1;
     
@@ -8,6 +14,13 @@
             display: flex;
             align-items: center;
             gap: 20px;
+
+            // button{
+            //   width: 80px;
+            //   height: 35px;
+            //   color: #fff;
+            //   background-color: #1a2846;
+            // }
     
             img {
               width: 100px;
@@ -40,13 +53,18 @@
           height: 0;
           border: 0.5px solid gray;
           margin: 20px 0px;
-    
+          @include md{
+            display: none;
+           }
         }
     
         .chart {
           margin-top: 50px;
           width: 80%;
           height: 400px;
+          @include md{
+           display: none;
+          }
     
         }
       }
@@ -81,6 +99,10 @@
               min-width: 480px;
               padding: 15px;
               background-color: #f45b6810;
+
+              @include md{
+                min-width: 250px;
+              }
     
               p{
                 margin-bottom: 5px;
