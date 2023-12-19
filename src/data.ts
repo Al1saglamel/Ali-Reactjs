@@ -39,12 +39,6 @@ export const menu = [
           url: "/orders",
           icon: "order.svg",
         },
-        {
-          id: 4,
-          title: "Posts",
-          url: "/posts",
-          icon: "post2.svg",
-        },
       ],
     },
     {
@@ -52,28 +46,16 @@ export const menu = [
       title: "general",
       listItems: [
         {
-          id: 1,
-          title: "Elements",
-          url: "/",
-          icon: "element.svg",
-        },
-        {
-          id: 2,
-          title: "Notes",
-          url: "/",
-          icon: "note.svg",
-        },
-        {
-          id: 3,
-          title: "Forms",
-          url: "/",
-          icon: "form.svg",
-        },
-        {
           id: 4,
           title: "Calendar",
           url: "/",
           icon: "calendar.svg",
+        },
+        {
+          id: 4,
+          title: "Geography",
+          url: "/",
+          icon: "app.svg",
         },
       ],
     },
@@ -531,27 +513,27 @@ export const menu = [
     activities: [
       {
         text: "John Doe purchased Playstation 5 Digital Edition",
-        time: "3 day ago",
+        time: "5 day ago",
+      },
+      {
+        text: "John Doe added 2 items into their wishlist",
+        time: "2 week ago",
+      },
+      {
+        text: "John Doe purchased Acer Laptop 16KL-4804",
+        time: "3 weeks ago",
+      },
+      {
+        text: "John Doe reviewed a product",
+        time: "1 month ago",
       },
       {
         text: "John Doe added 3 items into their wishlist",
-        time: "1 week ago",
-      },
-      {
-        text: "John Doe purchased Sony Bravia KD-32w800",
-        time: "2 weeks ago",
+        time: "2 month ago",
       },
       {
         text: "John Doe reviewed a product",
-        time: "1 month ago",
-      },
-      {
-        text: "John Doe added 1 items into their wishlist",
-        time: "1 month ago",
-      },
-      {
-        text: "John Doe reviewed a product",
-        time: "2 months ago",
+        time: "1 year ago",
       },
     ],
   };
