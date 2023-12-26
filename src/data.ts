@@ -512,7 +512,7 @@ export const menu = [
     },
     activities: [
       {
-        text: "John Doe purchased Playstation 5 Digital Edition",
+        text: "John Doe purchased Samsung TV 4K SmartTV",
         time: "5 day ago",
       },
       {
